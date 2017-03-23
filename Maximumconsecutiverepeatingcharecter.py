@@ -68,7 +68,7 @@ for i in string:
 
     p=i
 
-print m
+print m,max
 
 
 
