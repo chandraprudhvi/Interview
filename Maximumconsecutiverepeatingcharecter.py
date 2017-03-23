@@ -52,23 +52,22 @@ string = "aaaannnhhhhhiiuuuuuuuuuuugggggggggg"
 # print m ,maxcount
 
 p=""
-m=""
+m = ""
 count = 1
-max = 1
+maxcount = 1
 
 for i in string:
-    if i == p:
+    if i ==p:
         count+=1
-    elif count > max:
-        max = count
-        m = p
+    elif count > maxcount:
+        #m = i
+        maxcount=count
+        m=p
         count = 1
     else:
         count = 1
-
-    p=i
-
-print m,max
+    p = i
+print m
 
 
 
