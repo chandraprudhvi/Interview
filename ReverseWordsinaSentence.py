@@ -26,6 +26,6 @@ a.append(l[c])
 
 while c >0:
     a.append(l[c-1])
-    c-=1
+    c -=1
 print ' '.join(a)
 

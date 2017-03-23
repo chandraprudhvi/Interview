@@ -91,6 +91,23 @@ else:
     print "false "
 
 
+# remove duplicates
+
+a = "abchdaaahhhjjiiiiioooo"
+
+tes =[]
+
+x = list(a)
+for i in range(len(x)-1):
+    if x[i] in tes:
+        x[i] =''
+    else:
+        tes.append(x[i])
+print ''.join(tes)
+
+
+
+
 
 
 
