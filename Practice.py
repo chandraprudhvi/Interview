@@ -88,7 +88,7 @@ while s>e:
 if(string == ''.join(l)):
     print "true"
 else:
-    print "false"
+    print "false "
 
 
 
