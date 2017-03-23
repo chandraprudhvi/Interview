@@ -14,6 +14,7 @@ for i in range(1,len(word)):
 
 length += ("and "+word[i]+" repeats "+str(count))
 print (length)
+print 'test'
 
 
 
