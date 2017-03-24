@@ -24,29 +24,34 @@ while x > y:
 # find max in a window
 
 window = 2
-
+x = window
 c = arr
+
+
 
 lenofarr = len(arr)
 
 list1 = []
 windowmax = []
 
-for i in range(lenofarr):
-    while window > 0:
-        print window
+for i in range(lenofarr - window):
+    while window >=0:
+
         list1.append(arr[window])
         window -= 1
-    print list1
+
     list1.sort()
-    windowmax.append(list1[window -1])
+    windowmax.append(list1[window])
+
 
     lenofarr-= 1
     arr.pop(0)
+    window = x
 
-print windowmax
+    list1 = []
 
-
+for x in  windowmax:
+    print x
 
 
 
