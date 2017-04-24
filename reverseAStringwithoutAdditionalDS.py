@@ -1,5 +1,5 @@
 
-string = "shravan"
+
 
 
 # a = len(string) - 1
