@@ -16,4 +16,5 @@ def string_compression(string):
     return min(string, ''.join(compressed), key=len)
 
 
+
 print string_compression("aabbcc")
