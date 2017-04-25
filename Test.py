@@ -6,3 +6,6 @@ print x
 print a.replace("a","")
 y= ''.join(x)
 print y
+
+
+
