@@ -14,8 +14,8 @@ def fibonacci(x):
         yield b
 
 
-# for i in fibonacci(10):
-#     print i
+for i in fibonacci(10):
+    print i
 
 def stringreverse(m):
     a = list(m)

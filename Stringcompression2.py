@@ -39,11 +39,11 @@ def compress(s):
             res += s[i + 1]
             count = 1
     # print last one
-    if (count > 1):
+    if (count >= 1):
         res += str(count)
     return res
 
 
-print compress("aabbccaabbbbbbbb")
+print compress("aabbccaabbbbbbbbc")
 
 
