@@ -17,6 +17,9 @@ def fibonacci(x):
 for i in fibonacci(10):
     print i
 
+
+
+
 def stringreverse(m):
     a = list(m)
     x= 0

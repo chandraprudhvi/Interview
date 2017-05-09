@@ -17,14 +17,14 @@ __author__ = '29146'
 #         n-=1
 
 
-# for num in range(1,101):
-#     prime = True
-#     for i in range(2,num):
-#         if (num%i==0):
-#             prime = False
-#     if prime:
-#        print num
-#
+for num in range(1,101):
+    prime = True
+    for i in range(2,num):
+        if (num%i==0):
+            prime = False
+    if prime:
+       print num
+
 #
 # for i in range(2,97):
 #     if (97%i==0):
