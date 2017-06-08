@@ -108,48 +108,48 @@ c =  dict = {'Name': ['Zara', 'meena' ,'sheela'], 'Age': 7, 'Class': 'First'}
 # isUniqueChars("prudhvi")
 
 
-# def ifpalindromeperm():
-#
-#     stri = "aabcc"
-#
-#     c = len(stri)
-#
-#     a = {}
-#     count = 0
-#     for i in stri:
-#         if i in a:
-#
-#             a[i]+=1
-#         else:
-#             a[i] = 1
-#     print a
-#     oddcount = 0
-#     if (c%2 ==0):
-#         for i in a.values():
-#             if(i%2 !=0):
-#                 print i
-#                 oddcount+=1
-#         if oddcount >0:
-#             print "notpalindrome"
-#         else:
-#             print "palindrome"
-#     oddcount =0
-#     if (c%2 !=0):
-#         for i in a.values():
-#             #print i
-#             if(i%2 >1):
-#                 print i ,oddcount
-#                 oddcount+=1
-#         print oddcount
-#         if oddcount >1:
-#             print "notpalindrome"
-#         else:
-#             print "palindrome"
-#
-#     oddcount = 0
-#
-#
-# ifpalindromeperm()
+def ifpalindromeperm():
+
+    stri = "aabcc"
+
+    c = len(stri)
+
+    a = {}
+    count = 0
+    for i in stri:
+        if i in a:
+
+            a[i]+=1
+        else:
+            a[i] = 1
+    print a
+    oddcount = 0
+    if (c%2 ==0):
+        for i in a.values():
+            if(i%2 !=0):
+                print i
+                oddcount+=1
+        if oddcount >0:
+            print "notpalindrome"
+        else:
+            print "palindrome"
+    oddcount =0
+    if (c%2 !=0):
+        for i in a.values():
+            #print i
+            if(i%2 >1):
+                print i ,oddcount
+                oddcount+=1
+        print oddcount
+        if oddcount >1:
+            print "notpalindrome"
+        else:
+            print "palindrome"
+
+    oddcount = 0
+
+
+ifpalindromeperm()
 
 
 #%20

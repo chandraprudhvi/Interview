@@ -9,7 +9,7 @@ def string_reversal():
     print a[::-1]
 
     x= ' jaffa '.join(reversed(a))
-    print x
+    #print x
 
 
 

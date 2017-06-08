@@ -60,3 +60,28 @@ print test.next()
 print test.next()
     # a= map(lambda x: x * 2, [1,2,3,4])
     # print a
+
+
+class base(object):
+    def test(self):
+        pass
+
+
+class low1(object):
+    def test(self):
+        # super(low1, self).test()
+        print "low1 test"
+
+
+class low2(object):
+    def test(self):
+        # super(low2, self).test()
+        print "low2 test"
+
+
+class high(low1, low2, base):
+    pass
+
+
+if __name__ == "__main__":
+    high().test()

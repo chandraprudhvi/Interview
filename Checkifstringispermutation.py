@@ -17,4 +17,19 @@ def ifpermutation():
     else:
         print "permutation notpossible"
 
-ifpermutation()
+#ifpermutation()
+
+
+a = [1,2,3,4,5,6,7,7,8,8,8,8,8,8]
+
+b =  set(a)
+
+
+m = {2,3,4,5,6,7,8}
+
+print type(m)
+
+
+
+print b
+print type(b)
